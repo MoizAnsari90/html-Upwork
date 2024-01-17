@@ -1,0 +1,361 @@
+*{
+    margin: auto 0 ;
+}
+.container{
+    width: 100%;
+    height: 4350px;
+    
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 0.1px solid rgb(231, 229, 229);
+}
+.logo{
+    width: 15%;
+    height: 80px;
+    background-color: white;
+
+}
+.logo img{
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.bar{
+    width: 70%;
+    height: 80px;
+    background-color: white;
+}
+.but{
+    width: 30%;
+    height: 80px;
+    background-color: rgb(19, 12, 151);
+    display: flex;
+    justify-content: space-between;
+}
+.bar ul li{
+    display: inline-block;
+    width: 100px;
+    padding-top: 30px;
+    
+}
+select{
+     border: none;
+}
+.log{
+    width: 40%;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+}
+.log h3{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.log1{
+    width: 60%;
+    height: 80px;
+    background-color:white;
+}
+button{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #108a00;
+    color: white;
+    border: 1px solid #108a00;
+}
+button:hover{
+    background-color: #108a00
+}
+nav{
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+    background-color: white;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 25px;
+    width: 140px;
+}
+.slider{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider .how-work{
+    width: 50%;
+    height: 400px;
+    
+}
+.slider .how-work h1{
+    margin-left: 150px;
+    font-family: rebrand;
+    padding-top: 50px;
+    font-size: 70px;
+    font-weight: 900;
+    color: #108a00;
+}
+.slider .brand{
+    width: 50%;
+    height: 400px;
+    
+}
+.slider .how-work p{
+    margin-left: 150px;
+    color: gray;
+    font-size: x-large;
+    font-weight: 900;
+}
+.slider .how-work button{
+    background-color: #108a00;
+    margin-left: 150px;
+    border: 1px solid #108a00;
+    width: 150px;
+    font-size: large;
+}
+.slider .brand img{
+    width: 80%;
+    height: 80%;
+    margin-left: 75px;
+}
+.t-box{
+    width: 100%;
+    height: 20px;
+    
+}
+.t-box h4{
+    margin-left: 150px;
+    color: gray;
+}
+.sponer img{
+    margin-left: 150px;
+}
+
+.up-box{
+    width: 80%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 10%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.up-box .left-box{
+    width: 50%;
+    height: 400px;
+    
+    
+}
+.up-box .right-box{
+    width: 50%;
+    height: 400px;
+    
+    padding-left: 20px;
+    
+    
+}
+.up-box .right-box h2{
+    font-size: 40px;
+}
+.up-box .right-box h4{
+    font-size: 20px;
+}
+.up-box .right-box button{
+    width: 170px;
+}
+#white{
+    background-color: white;
+    color: #108a00;
+    border: 2px solid #108a00;
+}
+.talent-box{
+    width: 100%;
+    height: 100px;
+    margin-top: 25px;
+    
+
+}
+.talent-box h1{
+    margin-left: 150px;
+    padding-top: 20px;
+    font-size: 50px;
+
+}
+.talent-box h3{
+    margin-left: 150px;
+    color: grey;
+}
+.job-box{
+    width: 80%;
+    height: 200px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+}
+.job-box .dep{
+    width: 280px;
+    height: 150px;
+    background-color: rgb(238, 236, 236);
+    border-radius: 5px;
+    
+   
+    
+}
+.bannar{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 50px;
+    
+
+}
+.bannar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+.beta img{
+    margin-left: 10%;
+}
+.job-box .dep h2{
+   font-family: sans-serif;
+   margin-top: 25px;
+   margin-left: 25px;
+   font-weight: 400;
+}
+.dep ul li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: larger;
+    
+}
+#cp{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 20px;
+    height: 20px;
+    background-color: #108a00;
+    margin-left: -10px;
+}
+.find{
+    width: 1180px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url(../img/fix.jpg);
+    
+}
+.find img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px 10px 10px 10px;
+}
+.find h1{
+    font-size: 80px;
+    padding-top: 100px;
+    padding-left: 50px;
+    color: white;
+}
+.find p{
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+.find .three-box{
+    width: 350px;
+    height: 150px;
+    background-color: #108a00;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.find .three-box:hover{
+    background-color: white;
+    color: #108a00;
+    cursor: pointer;
+}
+.find .three-box h3{
+    color: white;
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.find .three-box h3:hover{
+    color: #108a00;
+}
+.find .three-box h5{
+    padding-left: 25px;
+    padding-top: 15px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#s{
+    font-size: 18px;
+}
+.bus{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 50px;
+    
+}
+.bus img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 15px 15px;
+}
+footer{
+    width: 80%;
+    height: 500px;
+    background-color: #001e00;
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 10px 10px 10px 10px ;
+}
+.lbox{
+    width: 24.7%;
+    height: 300px;
+    
+    display: inline-block;
+    margin-top: 35px;
+}
+.lbox ul li{
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    margin-left: 20px;
+}
+hr{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5%;
+}
+.end-box ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
